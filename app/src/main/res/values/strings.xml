@@ -4,4 +4,7 @@
     <string name="subject">Subject</string>
     <string name="message">Message</string>
     <string name="send">Send</string>
+    <string name="startService">START SERVICE</string>
+    <string name="pauseService">PAUSE SERVICE</string>
+    <string name="stopService">STOP SERVICE</string>
 </resources>

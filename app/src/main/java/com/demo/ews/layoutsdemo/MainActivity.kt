@@ -25,7 +25,10 @@ class MainActivity : AppCompatActivity() {
         })
 
         demo02.setOnClickListener(View.OnClickListener {
-            Toast.makeText(this, "Action DEMO 02!", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "Action DEMO 02!", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, Demo02Activity::class.java)
+            startActivity(intent)
+
         })
 
     }
