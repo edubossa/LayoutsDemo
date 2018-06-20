@@ -7,4 +7,5 @@
     <string name="startService">START SERVICE</string>
     <string name="pauseService">PAUSE SERVICE</string>
     <string name="stopService">STOP SERVICE</string>
+    <string name="btEnviar">Enviar</string>
 </resources>

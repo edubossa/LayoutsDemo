@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".RelativeLayout02Activity">
+
+
+    <TextView
+        android:id="@+id/cupcake_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/size_text_default"
+        android:background="@color/colorBackgroundText"
+        android:text="Cupcake"/>
+
+    <TextView
+        android:id="@+id/v1_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_text_default"
+        android:background="@color/colorBackgroundText"
+        android:paddingLeft="16dp"
+        android:text="V"/>
+
+    <TextView
+        android:id="@+id/v2_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/size_text_default"
+        android:background="@color/colorBackgroundText"
+        android:paddingRight="16dp"
+        android:text="V"/>
+
+    <TextView
+        android:id="@+id/nougat_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cupcake_text_view"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/size_text_default"
+        android:background="@color/colorBackgroundText"
+        android:text="Nougat"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/froyou_text_view"
+        android:textSize="@dimen/size_text_default"
+        android:background="@color/colorBackgroundText"
+        android:text="Donout"/>
+
+
+    <TextView
+        android:id="@+id/froyou_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_text_default"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorBackgroundText"
+        android:text="Froyo"/>
+
+    <TextView
+        android:id="@+id/eclair_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_text_default"
+        android:background="@color/colorBackgroundText"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/kitkat_text_view"
+        android:text="Eclair"/>
+
+    <TextView
+        android:id="@+id/kitkat_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_text_default"
+        android:background="@color/colorBackgroundText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:text="KitKat"/>
+
+    <Button
+        android:id="@+id/bt_voltar_relative_layout_02"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"/>
+
+</RelativeLayout>

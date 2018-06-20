@@ -13,8 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val demo01 = findViewById<Button>(R.id.demo_01)
-        val demo02 = findViewById<Button>(R.id.demo_02)
+        val demo01 = findViewById<Button>(R.id.btDemo01)
+        val demo02 = findViewById<Button>(R.id.btDemo02)
+        val relativeLayout01 = findViewById<Button>(R.id.btRelativeLayout01)
+        val relativeLayout02 = findViewById<Button>(R.id.btRelativeLayout02)
 
         demo01.setOnClickListener(View.OnClickListener {
             //Toast.makeText(this, "Action DEMO 01!", Toast.LENGTH_SHORT).show()
@@ -29,6 +31,16 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Demo02Activity::class.java)
             startActivity(intent)
 
+        })
+
+        relativeLayout01.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, RelativeLayout01Activity::class.java)
+            startActivity(intent)
+        })
+
+        relativeLayout02.setOnClickListener(View.OnClickListener {
+            //Toast.makeText(this, "Em implementacao", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, RelativeLayout02Activity::class.java))
         })
 
     }
